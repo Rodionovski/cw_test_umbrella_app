@@ -1,0 +1,55 @@
+section {
+    padding: 115px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section-title h2{
+    padding: 0 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 36px;
+    color: #282528;
+    font-weight: 700;
+    font-family: "Open Sans", Arial, sans-serif;
+    position: relative;
+}
+.section-title h2::after,
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #babdc1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.section-title h2::before {
+    right: 100%;
+}
+.section-title h2::after {
+    left: 100%;
+}
+form {
+    width: 50%;
+}
+input:focus, textarea {
+    outline: none;
+    border-color: #999;
+    resize: none;
+}
+input, textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+input::placeholder, textarea::placeholder {
+    color: #ccc;
+    font-size: 14px;
+
+}
